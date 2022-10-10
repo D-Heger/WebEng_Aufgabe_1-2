@@ -1,0 +1,102 @@
+body{
+    background-image: url("../img/background/background.jpg");
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+.navContainer{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    grid-gap: 0;
+    background-color: #8EC7D2;
+    padding: 1% 1%;
+    height: 3.5%;
+}
+
+
+
+h1.topBar{
+    font-size: 60px;
+    margin-top: 0;
+    font-family: Arial, serif;
+    color: white;
+    font-weight: normal;
+    margin-left: 10%;
+
+}
+
+p.navBar{
+    margin-top: 0;
+    font-size: 25px;
+    font-family: Arial, serif;
+    margin-left: 10%;
+}
+
+.navBarLinks{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.companyLogo{
+    height: 3.5%;
+    width: 3.5%;
+    border-radius: 50%;
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.productContainer > div{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid;
+    font-family: Arial, serif;
+}
+
+.clockImg{
+    width: 300px;
+    height: 200px;
+}
+
+.clockImg:hover{
+    transition-duration: 0.1s;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+p.cost {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: darkred;
+    text-align: left;
+}
+
+.euroCost {
+    font-weight: 700;
+}
+
+p.text {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}

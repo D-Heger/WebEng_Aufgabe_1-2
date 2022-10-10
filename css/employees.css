@@ -1,0 +1,50 @@
+.emplImg{
+    width: 300px;
+    height: 200px;
+}
+
+.name1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.name2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.name3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.employeeContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1%;
+    padding: 10px;
+    margin: 1% 20%;
+}
+
+.employeeContainer > div{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid;
+    font-family: Arial, serif;
+}
+
+.employee{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pic{
+    grid-column: 1;
+}
+
+.emplText{
+    grid-column: 2;
+}
