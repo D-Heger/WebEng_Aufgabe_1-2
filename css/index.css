@@ -14,25 +14,21 @@ body{
     background-color: #8EC7D2;
     padding: 1% 1%;
     height: 3.5%;
+    border: 2px solid darkblue;
 }
-
-
 
 h1.topBar{
     font-size: 60px;
-    margin-top: 0;
     font-family: Arial, serif;
     color: white;
     font-weight: normal;
-    margin-left: 10%;
-
+    margin: 0 20%;
 }
 
 p.navBar{
-    margin-top: 0;
     font-size: 25px;
     font-family: Arial, serif;
-    margin-left: 10%;
+    margin: 2% 20%;
 }
 
 .navBarLinks{
@@ -42,8 +38,8 @@ p.navBar{
 }
 
 .companyLogo{
-    height: 3.5%;
-    width: 3.5%;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
 }
 
@@ -71,11 +67,6 @@ p.navBar{
     height: 200px;
 }
 
-.clockImg:hover{
-    transition-duration: 0.1s;
-    transform: scale(1.05);
-}
-
 h3 {
     font-size: 20px;
     margin-left: 20px;
@@ -99,4 +90,8 @@ p.text {
     margin-left: 20px;
     margin-right: 20px;
     text-align: left;
+}
+
+img{
+    border: 2px solid;
 }
