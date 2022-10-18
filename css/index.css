@@ -95,3 +95,8 @@ p.text {
 img{
     border: 2px solid;
 }
+
+.highlight {
+    background-color: lightblue !important;
+    font-weight: bold;
+}
